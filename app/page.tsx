@@ -1,9 +1,9 @@
-import Login from "./features/Login";
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <>
-      <Login />
-    </>
+    <div>
+      <UserButton />
+    </div>
   );
 }
